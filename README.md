@@ -1,6 +1,6 @@
 # Fama French 3 factor Expected Returns on US equity security
 
-One notebook, `notebook/Fama French 3 factor Expected Returns on US equity security.ipynb`. Zu67 uploaded it at the repository root on 2021-07-12 with the message "Add files via upload". The notebook has no saved output.
+One notebook, `notebook/Fama French 3 factor Expected Returns on US equity security.ipynb`. Zu67 uploaded it at the repository root on 2021-07-11, recorded as 19:19 -0500, with the message "Add files via upload". That was about three minutes after the plain-text copy in [famaFrenchAssetPricing](https://github.com/Zu67/famaFrenchAssetPricing) was deleted. The notebook has no saved output. It was later moved from the repository root into `notebook/`.
 
 The cell imports pandas, numpy, matplotlib, and datetime, then has a bare `pip install getFamaFrenchFactors` line. It calls `DataReader`, `end`, `macydata`, `macydataF`, and `gff`, and none of those names are assigned in the cell, so it does not run as written.
 
